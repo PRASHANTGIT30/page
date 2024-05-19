@@ -1,0 +1,206 @@
+/* Add this to your existing CSS */
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+  background-color: #fff;
+  color: blue;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+.navbar-left{
+  font-size: 1.5em;
+}
+.navbar-right{
+  display:inline;
+}
+.navbar a {
+  display:inline;
+  color: blue;
+  padding: 0 1em;
+  text-decoration: none;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.blue-bg {
+    background-color: blue;
+    padding: 20px; /* Add padding as needed */
+    color: white; /* Set text color */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add some space between the form and the button */
+  }
+  
+  .column {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 200px; /* Set a fixed width for the button */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 20px; /* Add some padding to the container */
+  }
+  
+  form {
+    border: 2px solid #ccc; /* Add a border around the form */
+    padding: 20px; /* Add some padding to the form */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 200px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border: 2px solid #007bff; /* Add a border around the button */
+    border-radius: 5px; /* Add some border-radius for rounded corners */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  footer {
+    background-color: #f9f4f4;
+    color: #2509f4;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.info {
+        display: flex;
+        background: #3903fb;
+        color: rgb(244, 244, 249);
+}
+    
+
+.info ul li{
+    margin-top: 50px;
+   margin-right: 100px;
+}
+.info p{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+

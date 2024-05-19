@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Add</title>
+    <link rel="stylesheet" href="Productadd <a href="#">Home</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="Product.html">Product</a>
+        <a href="Register.html">Register</a>
+        <a href="Login.html">Login</a>
+        <a href="#">Contact Us</a>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            Fake Product Review Detection and Analysis System
+        </div>
+        <div class="navbar-right">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="Dashboard.html">Dashboard</a>
+            <a href="Register.html">Register</a>
+            <a href="#">My Account</a>
+            <a href="index.html">Logout</a>
+        </div>
+    </div>
+    <div class="header">
+       PRODUCT ADD
+    </div>
+
+    <form id="product-form" action="/submit-product" method="post" enctype="multipart/form-data">
+        <label for="product-name">Product Name:</label>
+        <input type="text" id="product-name" name="product-name" required>
+        
+        <label for="product-type">Product Type:</label>
+        <input type="text" id="product-type" name="product-type" required>
+        
+        <label for="company-name">Company Name:</label>
+        <input type="text" id="company-name" name="company-name" required>
+        
+        <label for="product-price">Product Price:</label>
+        <input type="number" id="product-price" name="product-price" step="0.01" required>
+        
+        <label for="product-image">Product Image:</label>
+        <input type="file" id="product-image" name="product-image" accept="image/*" required>
+        
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4" required></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+    <div class = "info">
+        <div class ="info1">
+            <h3>CONTACT INFO</h3>
+            <ul>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+            </ul>
+        </div>
+        <div class ="info1">
+            <h3>MODULES</h3>
+            <ul>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+            </ul>
+        </div>
+            <div class ="info1">
+            <h3>PROJECT LINKS</h3>
+            <ul>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+            </ul>
+        </div>
+        <div class ="info1">
+            <h3>ABOUT PROJECT</h3>
+            <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. <br>Nobis dolore enim officia <br>neque doloribus, nemo tempora <br>debitis rem explicabo, ut,<br> ab cumque quibusdam <br>doloremque molestiae!</p>
+        </div>
+          </div>
+    
+        <div class="footer">
+            <p>&copy; 2024 Fake Product Review Detection and Analysis System</p>
+        </footer>
+    
+        </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,140 @@
+/* Resetting default browser styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #fff;
+  color: blue;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: blue;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+section ul li{
+display: inline;
+}
+
+footer {
+  background-color: #fff;
+  color: blue;
+  padding: 20px;
+}
+/* Add this to your existing CSS */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  flex: 1;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+.blue-bg {
+  background-color: blue;
+  height:150px;
+  padding: 20px; /* Add padding as needed */
+  color: white; /* Set text color */
+}
+.blue-bg h1{
+display: flex;
+padding-left:150px;
+}
+.heading {
+  background-color: #fff;
+  
+   /* Add padding as needed */
+ /* Set text color */
+}
+.heading h3{
+padding-left: 350px;
+font-size:30px;
+color: blue;
+}
+.product-container {
+  display: flex;
+  padding:100px;
+}
+
+.product {
+  flex: 1;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.product img {
+  width: 100%;
+  max-width: 200px; /* Adjust as needed */
+  height: auto;
+}
+.side{
+  margin-top: 0px;
+  display: inline;
+}
+.side1{
+margin-left: 30px;
+margin-bottom: 100px;
+
+}
+.side2{
+margin-left: 600px;
+margin-top: -490px;
+}
+.info {
+  display: flex;
+  background: #3903fb;
+  color: rgb(244, 244, 249);
+}
+.info ul{
+  margin-left: 20px;
+}
+.info ul li{
+  margin-top: 50px;
+ margin-right: 100px;
+}
+.info p{
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
