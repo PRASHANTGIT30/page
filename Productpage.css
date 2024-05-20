@@ -3,7 +3,7 @@ body {
   } 
   .navbar {
     background-color: #fff;
-    color: blue;
+    color: rgb(4, 4, 5);
     padding: 1em;
     display: flex;
     justify-content: space-between;
@@ -23,7 +23,7 @@ body {
     text-decoration: underline;
   }
   .header {
-    background-color: #007BFF;
+    background-color: #ff000099;
     color: white;
     text-align: left;
     padding: 1em;
@@ -58,7 +58,7 @@ body {
     margin-right: 20px;
   }
   button {
-  background-color: #007bff;
+  background-color: #6a00ff9c;
   color: white;
   margin-top:15px;
   margin-left:150px;
@@ -87,7 +87,7 @@ body {
   .info {
     display: flex;
   margin-top: 100px;
-    background: #3903fb;
+    background: #fb030399;
     color: rgb(244, 244, 249);
   }
   .info1{
@@ -104,7 +104,7 @@ body {
   
   .footer {
     background-color: #fff;
-    color: blue;
+    color: rgb(6, 6, 8);
     text-align: center;
     padding: 1em;
     position: relative;

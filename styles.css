@@ -12,7 +12,7 @@ body {
 
 header {
   background-color: #fff;
-  color: blue;
+  color: rgb(12, 12, 13);
   padding: 20px;
 }
 
@@ -43,7 +43,7 @@ display: inline;
 
 footer {
   background-color: #fff;
-  color: blue;
+  color: rgb(12, 12, 13);
   padding: 20px;
 }
 /* Add this to your existing CSS */
@@ -65,14 +65,14 @@ nav ul {
 }
 
 nav ul li {
-  margin-left: 20px;
+  margin-left: 80px;
 }
 
 nav ul li:first-child {
   margin-left: 0;
 }
 .blue-bg {
-  background-color: blue;
+  background-color: rgba(255, 0, 0, 0.641);
   height:150px;
   padding: 20px; /* Add padding as needed */
   color: white; /* Set text color */
@@ -90,7 +90,7 @@ padding-left:150px;
 .heading h3{
 padding-left: 350px;
 font-size:30px;
-color: blue;
+color: rgb(12, 12, 13);
 }
 .product-container {
   display: flex;
@@ -109,7 +109,7 @@ color: blue;
   height: auto;
 }
 .side{
-  margin-top: 0px;
+  margin-top: 50px;
   display: inline;
 }
 .side1{
@@ -123,18 +123,19 @@ margin-top: -490px;
 }
 .info {
   display: flex;
-  background: #3903fb;
+margin-top: 100px;
+  background: #fb03039e;
   color: rgb(244, 244, 249);
 }
+.info1{
+  margin-left: 180px;
+}
+
 .info ul{
-  margin-left: 20px;
+  margin-top: 30px;
 }
 .info ul li{
-  margin-top: 50px;
- margin-right: 100px;
-}
-.info p{
-  margin-top: 50px;
-  margin-right: 50px;
+  margin-top: 30px;
+ 
 }
 
